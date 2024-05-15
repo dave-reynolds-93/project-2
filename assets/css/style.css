@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-.row {
+header .row {
     margin: 0;
     padding: 0;
 }
@@ -15,7 +15,12 @@
 .bg-color-nav {
     background-color: #939aa4;
 }
-/* ******************************************* Heading */
+
+/* ----------------------------------------Special paddings/margins/text */
+
+
+
+/* ******************************************* Header */
 
 header {
     margin: 0;
@@ -52,12 +57,72 @@ header {
     color: #f7f8f1;
 }
 
-a {
+.navbar-nav a {
     text-align: center;
 }
 
-a i {
+.navbar-nav a i {
     font-size: 20px;
+}
+
+/* ******************************************* Footer */
+
+footer {
+    min-height: 120px;
+    margin: 0;
+}
+
+#footer-left {
+    background-color: #f7f8f1;
+}
+
+#footer-left h5 a, #footer-left h5 {
+    color:#939aa4;
+    font-family: "Noto Serif", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footer-right {
+    background-color: #939aa4;
+}
+
+#footer-right h5 {
+    color:#f7f8f1;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    margin: 0 30px;
+    color: #939aa4;
+    background: #f7f8f1;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #29150e;
 }
 
 

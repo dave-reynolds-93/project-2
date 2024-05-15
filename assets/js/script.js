@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     //At beginning, set all of the pages to have a display of none except page1.
-    document.querySelectorAll('p').forEach(p => {
+    document.querySelectorAll('.pages').forEach(p => {
         p.style.display = 'none';
     })
     document.querySelector('#page1').style.display = 'block';
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //This function is called when the anchor elements are clicked on.
 function showPage(page) {
-    document.querySelectorAll('p').forEach(p => {
+    document.querySelectorAll('.pages').forEach(p => {
         p.style.display = 'none';
     })
     document.querySelector(`#${page}`).style.display = 'block';
