@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-header .row {
+.row {
     margin: 0;
     padding: 0;
 }
@@ -18,7 +18,18 @@ header .row {
 
 /* ----------------------------------------Special paddings/margins/text */
 
+.image-div {
+    padding: 0;
+    margin: 0;
+}
 
+img {
+    flex-shrink: 0;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    min-height: 390px;
+}
 
 /* ******************************************* Header */
 
@@ -70,6 +81,10 @@ header {
 footer {
     min-height: 120px;
     margin: 0;
+}
+
+.footer-details {
+    --bs-gutter-x: 0;
 }
 
 #footer-left {
@@ -125,6 +140,33 @@ footer {
     background: #29150e;
 }
 
+/* ******************************************* Contact page */
+
+.contact-page {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    background-color: #939aa4;
+    color: #f7f8f1;
+}
+
+.contact-page h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #939aa4;
+    background-color: #f7f8f1;
+}
 
 
 
