@@ -142,6 +142,10 @@ footer {
 
 /* ******************************************* Contact page */
 
+#page3 {
+    --bs-gutter-x: 0;
+}
+
 .contact-page {
     font-family: "Urbanist", sans-serif;
     font-weight: 100;
