@@ -44,8 +44,20 @@
     </header>
     <section id="page1" class="pages">
         <div class="row">
-            <div class="col-md-7 contact-page">
-                
+            <div class="col-md-7 home-page">
+                <h2>Meet Megan</h2>
+                <p>
+                    Megan has been giving massage for 10 years. She has vast amounts of experience, and an intuitive insight into people's bodies.
+                </p>
+                <p>
+                    Megan can do the following massage types:
+                    <ul>
+                        <li>Refloxology</li>
+                        <li>Deep Tissue</li>
+                        <li>Aromatherapy</li>
+                    </ul>
+                </p>
+                <p>"Megan is a fantastic masseuse! I love her ability to know what I need at each session. I would recommend her to anyone." - Tom Carter</p>
             </div>
             <div class="col-md-5 image-div">
                 <img src="assets/images/massage.jpg" alt="massage equipment">
@@ -54,8 +66,11 @@
     </section>
     <section id="page2" class="pages">
         <div class="row">
-            <div class="col-md-7 contact-page">
-                
+            <div class="col-md-7 map-page">
+                <p>I perform my massage at this location. I am happy to travel to you, although an additional cost will occur for travel time and expenses.</p>
+                <gmp-map center="52.08609390258789,-4.657620906829834" zoom="14" map-id="DEMO_MAP_ID">
+                    <gmp-advanced-marker position="52.08609390258789,-4.657620906829834" title="My location"></gmp-advanced-marker>
+                </gmp-map>
             </div>
             <div class="col-md-5 image-div">
                 <img src="assets/images/massage.jpg" alt="massage equipment">
@@ -115,6 +130,8 @@
             </div>
         </div>
     </footer>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF41hUz6R7mt-s-hp_DuCr3D-6lCzHHbI&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
     <script src="/assets/js/script.js"></script>
     <script src="/assets/js/sendEmail.js"></script>
 </body>

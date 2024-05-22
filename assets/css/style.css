@@ -31,6 +31,14 @@ img {
     min-height: 390px;
 }
 
+.contact-page, .map-page, .home-page {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    background-color: #939aa4;
+    color: #f7f8f1;
+}
+
 /* ******************************************* Header */
 
 header {
@@ -146,14 +154,6 @@ footer {
     --bs-gutter-x: 0;
 }
 
-.contact-page {
-    font-family: "Urbanist", sans-serif;
-    font-weight: 100;
-    letter-spacing: 1px;
-    background-color: #939aa4;
-    color: #f7f8f1;
-}
-
 .contact-page h3 {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -171,6 +171,30 @@ button[type="submit"] {
     color: #939aa4;
     background-color: #f7f8f1;
 }
+
+/* ******************************************* Map page */
+
+gmp-map {
+    height: 250px;
+    width: 400px;
+    margin: auto;
+}
+
+.map-page p {
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+}
+
+/* ******************************************* Home page */
+
+.home-page {
+    padding: 30px;
+}
+
+.home-page h2 {
+    padding-bottom: 20px;
+}
+
 
 
 
