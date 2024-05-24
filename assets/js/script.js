@@ -22,3 +22,7 @@ function showPage(page) {
     })
     document.querySelector(`#${page}`).style.display = 'block';
 }
+
+// document.querySelector('button').onsubmit = function(){
+//     console.log('This works');
+// }

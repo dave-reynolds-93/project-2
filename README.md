@@ -33,7 +33,7 @@ This is a massage site with the aim of attaining more clients. It is aimed at pe
 
 *   ### Wireframes
 
-    -   All wireframes - [View](/assets/wireframes/Wireframes.pdf)
+    -   All wireframes - [View](/assets/wireframes/wireframes.pdf)
 
 
 ## Features
