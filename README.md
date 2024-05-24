@@ -1,112 +1,251 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Massage With Megan Website</h1>
 
-Welcome Dave Reynolds,
+![index.html](/assets/images/indexDesktop.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the live project here.](https://dave-reynolds-93.github.io/ci-project-1/)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+This is a massage site with the aim of attaining more clients. It is aimed at people wanting to find a masseuse. Features include information about the services, with easy navigation of multiple pages, all on one page.
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the masseuse.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Returning Visitor Goals
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+        1. As a Returning Visitor, I want to find the best way to get in contact with the masseuse with any questions I may have.
 
-A blue button should appear to click: _Make Public_,
+    -   #### Frequent User Goals
+    
+        1. As a Frequent User, I want to get in touch with the masseuse easily to book a massage.
 
-Another blue button should appear to click: _Open Browser_.
+-   ### Design
+    -   #### Colour Scheme
+        -   The two main colours used are #241d15, and #79cee2. ![](/assets/images/colourContrast.png)
+    -   #### Typography
+        -   Noto Serif and Urbanist are the 2 fonts used throughout the website, with sans-serif as the fallback font in case for any reason the fonts aren't being imported into the site correctly. The 2 fonts are very clean, and give the website a professional feel.
+    -   #### Imagery
+        -   Imagery is important. The picture shows potential clients some of the relaxing equipment they can expect from this massage experience.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*   ### Wireframes
 
-To log into the Heroku toolbelt CLI:
+    -   All wireframes - [View](/assets/wireframes/Wireframes.pdf)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+## Features
 
-------
+-   Responsive on all device sizes
 
-## Release History
+-   Interactive elements
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Technologies Used
 
-**April 26 2024:** Update node version to 16
+### Languages Used
 
-**September 20 2023:** Update Python version to 3.9.17.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Frameworks, Libraries & Programs Used
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+1. [Bootstrap 5.3.2:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Lora' and 'Source Serif 4' fonts into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](/assets/wireframes/Wireframes.pdf) during the design process.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### API's
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+1. [EmailJS:](https://www.emailjs.com/)
+    - EmailJS was used so that when a user clicks submit on the contact form, an email is sent to my email address, with the message, name and contact details of the user.
+1. [Google Maps API:](https://developers.google.com/maps)
+    - This was used to show on a map the location of where the massages take place.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Testing
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+1.  Index page html validated.
+![Index Validated](/assets/images/htmlValidatorIndex.png)
+2.  Video page html validated.
+![Video Validated](/assets/images/htmlValidatorVideo.png)
+3.  Contact page html validated.
+![Contact Validated](/assets/images/htmlValidatorContact.png)
+4.  Thanks page html validated.
+![Thanks Validated](/assets/images/htmlValidatorThanks.png)
+5.  Css validated. The one warning is from the external bootstrap link.
+![Css Validated](/assets/images/cssValidated.png)
+![Css Warning](/assets/images/cssWarning.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Testing User Stories from User Experience (UX) Section
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-   #### First Time Visitor Goals
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the masseuse.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
+        2. The main points are made immediately with the title.
+        3. The user has two options, read what's on the homepage to learn more about the masseuse, or
+        click through to one of the other pages, to learn the location or contact the masseuse.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-------
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes the page they will end up at clearly.
+        3. On the Contact Us Page, after a form response is submitted, they are taken to a thankyou page,
+        which has the same navbar as all the other pages, but also refreshes to the home page after 10
+        seconds if no move is made by the user.
 
-## FAQ about the uptime script
+-   #### Returning Visitor Goals
 
-**Why have you added this script?**
+    1. As a Returning Visitor, I want to find the best way to get in contact with the masseuse with any questions I may have.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+        1. The navigation bar clearly highlights the "Contact Us" Page.
+        2. Here they can fill out the form on the page.
+        3. The footer contains links to the organisations Facebook, Instagram and Twitter page.
+        4. Whichever link they click, it will open up in a new tab to ensure the user can easily get back to the website.
 
-**How will this affect me?**
+-   #### Frequent User Goals
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    1. As a Frequent User, I want to find the best way to get in contact with the masseuse to book a massage.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+        1. The user would already be comfortable with the website layout and can easily click the contact link.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Further Testing
 
-**So….?**
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Known Bugs
 
-**Can I opt out?**
+-   Need to complete.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Bugs that were fixed
+
+-   There was a thin white gutter to the bottom of the footer. I fixed this by removing the minimum height I had added to the footer. I worked out this needed to be done by inspecting the css on chrome developer tools.
+-   The links in the nav bar weren't displaying the correct pages. I changed the selector from page.id to page, and then it worked.
+-   The social links in the footer had a clickable area that was wider than the icon. This was poor UX. I tried changing the width of the anchor tag, but it didn't work. I then discovered on a forum that to change the width of an anchor tag you have to set the display to inline-block. It then worked.
+-   The image was leaving white space below it on the index.html page when the screen width was between 1100px and 768px. I fixed this by reducing the font size in the main section of the page.
+- The image was leaving white space to the right of it as the screen width got larger than 2160px. I fixed this by increasing the width of the img tag.
+
+### Screenshots
+
+1. index.html desktop and mobile.
+
+![index.html desktop](/assets/images/indexDesktop.png)
+![index.html mobile top](/assets/images/indexMobileTop.png)
+![index.html mobile bottom](/assets/images/indexMobileBottom.png)
+
+2. video.html desktop and mobile
+
+![video.html desktop](/assets/images/videoDesktop.png)
+![video.html mobile top](/assets/images/videoMobileTop.png)
+![video.html mobile bottom](/assets/images/videoMobileBottom.png)
+
+3. contact.html desktop and mobile
+
+![contact.html desktop](/assets/images/contactDesktop.png)
+![contact.html mobile top](/assets/images/contactMobileTop.png)
+![contact.html mobile bottom](/assets/images/contactMobileBottom.png)
+
+4. thanks.html desktop and mobile
+
+![thanks.html desktop](/assets/images/thanksDesktop.png)
+![thanks.html mobile top](/assets/images/thanksMobileTop.png)
+![thanks.html mobile bottom](/assets/images/thanksMobileBottom.png)
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/dave-reynolds-93/ci-project-1)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://dave-reynolds-93.github.io/ci-project-1/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/dave-reynolds-93/ci-project-1)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/dave-reynolds-93/ci-project-1)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+$ git clone https://github.com/dave-reynolds-93/ci-project-1
 ```
 
-**Anything more?**
+7. Press Enter. Your local clone will be created.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```
+$ git clone https://github.com/dave-reynolds-93/ci-project-1
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
----
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Happy coding!
+## Credits
+
+### Code
+
+-   [Bootstrap 5.3.2](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System, and
+also for styling.
+
+-   I got the code for the navbar from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/components/navbar/)
+
+-   I got the code for the 10 second refresh on the thank you page from my mentor.
+
+-   I got the code for the form on the contact.html page from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/components/forms/)
+
+-   I got the code for the video from [W3schools](https://www.w3schools.com/html/html5_video.asp)
+
+### Content
+
+-   All content was written by the developer.
+
+-   The colours were picked using a tailorbrands blog post as inspiration: [Tailor Brands Blog Post](https://www.tailorbrands.com/blog/logo-color-combinations)
+
+### Media
+
+-   The image was created by the developer.
+
+-   The inspirational video was made by Tomislav Jakupec on [Pixabay.](https://pixabay.com/)
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.

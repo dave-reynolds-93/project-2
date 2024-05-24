@@ -9,11 +9,11 @@
 /* ******************************************* Colours */
 
 .bg-color-title {
-    background-color: #f7f8f1;
+    background-color: #241d15;
 }
 
 .bg-color-nav {
-    background-color: #939aa4;
+    background-color: #79cee2;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -33,10 +33,10 @@ img {
 
 .contact-page, .map-page, .home-page {
     font-family: "Urbanist", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 1px;
-    background-color: #939aa4;
-    color: #f7f8f1;
+    background-color: #79cee2;
+    color: #241d15;
 }
 
 /* ******************************************* Header */
@@ -59,11 +59,11 @@ header {
     font-family: "Noto Serif", sans-serif;
     font-weight: 300;
     font-size: 46px;
-    color: #939aa4;
+    color: #79cee2;
 }
 
 .nav-item {
-    color: #f7f8f1;
+    color: #241d15;
     font-family: "Urbanist", sans-serif;
     font-weight: 100;
     font-size: 30px;
@@ -73,7 +73,7 @@ header {
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: #f7f8f1;
+    color: #241d15;
 }
 
 .navbar-nav a {
@@ -87,7 +87,6 @@ header {
 /* ******************************************* Footer */
 
 footer {
-    min-height: 120px;
     margin: 0;
 }
 
@@ -96,11 +95,11 @@ footer {
 }
 
 #footer-left {
-    background-color: #f7f8f1;
+    background-color: #241d15;
 }
 
 #footer-left h5 a, #footer-left h5 {
-    color:#939aa4;
+    color:#79cee2;
     font-family: "Noto Serif", sans-serif;
     font-weight: 300;
     font-size: 30px;
@@ -110,11 +109,11 @@ footer {
 }
 
 #footer-right {
-    background-color: #939aa4;
+    background-color: #79cee2;
 }
 
 #footer-right h5 {
-    color:#f7f8f1;
+    color:#241d15;
     font-family: "Urbanist", sans-serif;
     font-weight: 100;
     font-size: 30px;
@@ -136,8 +135,8 @@ footer {
     line-height: 7px;
     text-align: center;
     margin: 0 30px;
-    color: #939aa4;
-    background: #f7f8f1;
+    color: #79cee2;
+    background: #241d15;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -168,8 +167,8 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #939aa4;
-    background-color: #f7f8f1;
+    color: #79cee2;
+    background-color: #241d15;
 }
 
 /* ******************************************* Map page */
