@@ -5,13 +5,20 @@ document.addEventListener('DOMContentLoaded', function () {
         p.style.display = 'none';
     })
     document.querySelector('#page1').style.display = 'block';
+    //Set the home page link to be white, to show that user is on the home page.
+    document.querySelector('#page-one').style.color = 'white';
 
     // Add on click function to the nav anchor elements so that they change which page is showing 
-    document.querySelectorAll('a').forEach(a => {
+    document.querySelectorAll('.nav-item').forEach(a => {
         a.onclick = function() {
             showPage(String(this.dataset.page));
+            //The following code sets the page clicked on to have a white colour, 
+            //and the rest to go back to normal. This tells the user the page currently showing.
+            document.querySelectorAll('.nav-link').forEach(p => {
+                p.style.color = '#241d15';
+            })
+            this.style.color = 'white';
         } 
-        
     })
 })
 
@@ -23,6 +30,7 @@ function showPage(page) {
     document.querySelector(`#${page}`).style.display = 'block';
 }
 
-// document.querySelector('button').onsubmit = function(){
-//     console.log('This works');
-// }
+document.querySelector('form').onsubmit = function(){
+    document.querySelector('#thanks-message').style.display = 'block';
+    return false;
+}

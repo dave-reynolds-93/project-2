@@ -72,8 +72,8 @@ header {
     margin-left: 7%;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: #241d15;
+.nav-item:hover {
+    color: white !important;
 }
 
 .navbar-nav a {
@@ -144,7 +144,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #29150e;
+    background: white;
 }
 
 /* ******************************************* Contact page */
@@ -156,6 +156,11 @@ footer {
 .contact-page h3 {
     margin-top: 25px;
     margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.contact-page h5 {
+    font-weight: 200;
 }
 
 .center-form {
@@ -196,6 +201,7 @@ gmp-map {
 
 .home-page h2 {
     padding-bottom: 20px;
+    font-weight: 250;
 }
 
 

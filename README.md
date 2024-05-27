@@ -25,7 +25,7 @@ This is a massage site with the aim of attaining more clients. It is aimed at pe
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are #241d15, and #79cee2. ![](/assets/images/colourContrast.png)
+        -   The two main colours used are #241d15 and #79cee2. ![](/assets/images/colourContrast.png)
     -   #### Typography
         -   Noto Serif and Urbanist are the 2 fonts used throughout the website, with sans-serif as the fallback font in case for any reason the fonts aren't being imported into the site correctly. The 2 fonts are very clean, and give the website a professional feel.
     -   #### Imagery
@@ -140,9 +140,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   There was a thin white gutter to the bottom of the footer. I fixed this by removing the minimum height I had added to the footer. I worked out this needed to be done by inspecting the css on chrome developer tools.
 -   The links in the nav bar weren't displaying the correct pages. I changed the selector from page.id to page, and then it worked.
--   The social links in the footer had a clickable area that was wider than the icon. This was poor UX. I tried changing the width of the anchor tag, but it didn't work. I then discovered on a forum that to change the width of an anchor tag you have to set the display to inline-block. It then worked.
--   The image was leaving white space below it on the index.html page when the screen width was between 1100px and 768px. I fixed this by reducing the font size in the main section of the page.
-- The image was leaving white space to the right of it as the screen width got larger than 2160px. I fixed this by increasing the width of the img tag.
+-   It took me a while to figure out how to get the nav-links hover effect to keep working after java script event styling had been applied. I added the !important tag to the css, then it worked.
 
 ### Screenshots
 
