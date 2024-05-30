@@ -13,5 +13,6 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-    
 }
+
+module.exports = { sendMail }
