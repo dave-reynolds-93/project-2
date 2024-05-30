@@ -20,6 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
             this.style.color = 'white';
             //Hide message saying email has been recieved on contact page
             document.querySelector('#thanks-message').style.display = 'none';
+            //Set input fields on form to be empty
+            document.querySelector('#fullname').value = '';
+            document.querySelector('#emailaddress').value = '';
+            document.querySelector('#message').value = '';
         } 
     })
 })

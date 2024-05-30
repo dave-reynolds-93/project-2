@@ -180,6 +180,10 @@ button[type="submit"] {
     display: none;
 }
 
+textarea {
+    resize: none;
+}
+
 /* ******************************************* Map page */
 
 gmp-map {
