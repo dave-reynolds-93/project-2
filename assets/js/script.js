@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 p.style.color = '#241d15';
             })
             this.style.color = 'white';
+            //Hide message saying email has been recieved on contact page
+            document.querySelector('#thanks-message').style.display = 'none';
         } 
     })
 })
