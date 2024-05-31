@@ -36,7 +36,3 @@ function showPage(page) {
     document.querySelector(`#${page}`).style.display = 'block';
 }
 
-document.querySelector('form').onsubmit = function(){
-    document.querySelector('#thanks-message').style.display = 'block';
-    return false;
-}
