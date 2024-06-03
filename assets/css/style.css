@@ -208,6 +208,15 @@ gmp-map {
     font-weight: 250;
 }
 
+/* ******************************************* Media queries */
+
+@media only screen and (max-width: 767.5px) {
+
+    gmp-map {
+        padding-bottom: 20px;
+    }
+
+}
 
 
 
