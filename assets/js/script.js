@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         p.style.display = 'none';
     })
     document.querySelector('#page1').style.display = 'block';
+   
     //Set the home page link to be white, to show that user is on the home page.
     document.querySelector('#page-one').style.color = 'white';
 
@@ -30,9 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //This function is called when the anchor elements are clicked on.
 function showPage(page) {
+    //Hide all pages
     document.querySelectorAll('.pages').forEach(p => {
         p.style.display = 'none';
     })
+    //Show page clicked on
     document.querySelector(`#${page}`).style.display = 'block';
 }
 

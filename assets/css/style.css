@@ -26,7 +26,7 @@
 img {
     flex-shrink: 0;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     min-height: 390px;
 }
@@ -176,10 +176,6 @@ button[type="submit"] {
     background-color: #241d15;
 }
 
-#thanks-message {
-    display: none;
-}
-
 textarea {
     resize: none;
 }
@@ -192,9 +188,11 @@ gmp-map {
     margin: auto;
 }
 
-.map-page p {
-    padding: 30px 30px 10px 30px;
+.map-page h5 {
+    font-weight: 200;
     text-align: center;
+    padding: 25px 30px 20px 30px;
+    line-height: 1.2;
 }
 
 /* ******************************************* Home page */

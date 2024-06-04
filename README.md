@@ -2,7 +2,7 @@
 
 ![index.html](/assets/images/indexDesktop.png)
 
-[View the live project here.](https://dave-reynolds-93.github.io/ci-project-1/)
+[View the live project here.](https://dave-reynolds-93.github.io/project-2/)
 
 This is a massage site with the aim of attaining more clients. It is aimed at people wanting to find a masseuse. Features include information about the services, with easy navigation of multiple pages, all on one page.
 
@@ -81,16 +81,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 1.  Index page html validated.
 ![Index Validated](/assets/images/htmlValidatorIndex.png)
-2.  Video page html validated.
-![Video Validated](/assets/images/htmlValidatorVideo.png)
-3.  Contact page html validated.
-![Contact Validated](/assets/images/htmlValidatorContact.png)
-4.  Thanks page html validated.
-![Thanks Validated](/assets/images/htmlValidatorThanks.png)
-5.  Css validated. The one warning is from the external bootstrap link.
+2.  Css validated. There were 5 warnings from external links and extensions.
 ![Css Validated](/assets/images/cssValidated.png)
-![Css Warning](/assets/images/cssWarning.png)
-
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -141,32 +133,38 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   There was a thin white gutter to the bottom of the footer. I fixed this by removing the minimum height I had added to the footer. I worked out this needed to be done by inspecting the css on chrome developer tools.
 -   The links in the nav bar weren't displaying the correct pages. I changed the selector from page.id to page, and then it worked.
 -   It took me a while to figure out how to get the nav-links hover effect to keep working after java script event styling had been applied. I added the !important tag to the css, then it worked.
+-   EmailJs stopped working. I realised this was because I had 2 different form submition event handlers.
+Once I removed the other, emailJs worked again.
+-   Bootstrap navbar button wasn't working. I had forgotten to include the bootstrap Js Cdn at the bottom.
+-   Navbar was collapsing when screen was too large. Changed it from navbar-expand-lg to navbar-expand-md.
+-   The image had a whitespace below it when the thanks message appeared. I fixed this by changing the height of the img from auto to 100%.
 
 ### Screenshots
 
-1. index.html desktop and mobile.
+1. Homepage desktop and mobile.
 
-![index.html desktop](/assets/images/indexDesktop.png)
-![index.html mobile top](/assets/images/indexMobileTop.png)
-![index.html mobile bottom](/assets/images/indexMobileBottom.png)
+![Homepage desktop](/assets/images/indexDesktop.png)
+![Homepage mobile top](/assets/images/indexMobileTop.png)
+![Homepage mobile middle](/assets/images/indexMobileMiddle.png)
+![Homepage mobile bottom](/assets/images/indexMobileBottom.png)
 
-2. video.html desktop and mobile
+2. Map page desktop and mobile
 
-![video.html desktop](/assets/images/videoDesktop.png)
-![video.html mobile top](/assets/images/videoMobileTop.png)
-![video.html mobile bottom](/assets/images/videoMobileBottom.png)
+![Map page desktop](/assets/images/mapDesktop.png)
+![Map page mobile top](/assets/images/mapMobileTop.png)
+![Map page mobile middle](/assets/images/mapMobileMiddle.png)
+![Map page mobile bottom](/assets/images/mapMobileBottom.png)
 
-3. contact.html desktop and mobile
+3. Contact page desktop and mobile
 
-![contact.html desktop](/assets/images/contactDesktop.png)
-![contact.html mobile top](/assets/images/contactMobileTop.png)
-![contact.html mobile bottom](/assets/images/contactMobileBottom.png)
+![Contact page desktop](/assets/images/contactDesktop.png)
+![Contact page mobile top](/assets/images/contactMobileTop.png)
+![Contact page mobile middle](/assets/images/contactMobileMiddle.png)
+![Contact page mobile bottom](/assets/images/contactMobileBottom.png)
 
-4. thanks.html desktop and mobile
+4. Footer desktop
 
-![thanks.html desktop](/assets/images/thanksDesktop.png)
-![thanks.html mobile top](/assets/images/thanksMobileTop.png)
-![thanks.html mobile bottom](/assets/images/thanksMobileBottom.png)
+![Footer desktop](/assets/images/footerDesktop.png)
 
 ## Deployment
 
@@ -219,28 +217,27 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   [Bootstrap 5.3.2](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System, and
-also for styling.
+-   [Bootstrap 5.3.2](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System, navbar and also for styling.
 
 -   I got the code for the navbar from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/components/navbar/)
 
--   I got the code for the 10 second refresh on the thank you page from my mentor.
+-   I got the code for the form on the contact page from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/components/forms/)
 
--   I got the code for the form on the contact.html page from the [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/components/forms/)
+-   I got the inspiration, and some of the code, for the single page application from the [Harvard CS50 Web Development User Interfaces Video.](https://www.youtube.com/watch?v=jrBhi8wbzPw&t=674s&ab_channel=CS50)
 
--   I got the code for the video from [W3schools](https://www.w3schools.com/html/html5_video.asp)
+-   I got the code for the google maps map from the [Google maps API documentation.](https://developers.google.com/maps/documentation)
+
+-   I got the code for the EmailJs form to send an email to myself, from the [Code Institute, Interactive Frontend Development, Putting it all Together, Sending emails using EmailJs section.](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/)
+
+
 
 ### Content
 
 -   All content was written by the developer.
 
--   The colours were picked using a tailorbrands blog post as inspiration: [Tailor Brands Blog Post](https://www.tailorbrands.com/blog/logo-color-combinations)
-
 ### Media
 
--   The image was created by the developer.
-
--   The inspirational video was made by Tomislav Jakupec on [Pixabay.](https://pixabay.com/)
+-   The massage image was found on pexel, a free image database.
 
 ### Acknowledgements
 
