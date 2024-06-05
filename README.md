@@ -72,17 +72,44 @@ This is a massage site with the aim of attaining more clients. It is aimed at pe
 1. [Google Maps API:](https://developers.google.com/maps)
     - This was used to show on a map the location of where the massages take place.
 
+## Java Script
+
+### script.js
+
+-   I used an event listener, so that the js loads after the dom content has loaded.
+-   I used querySelectorAll and querySelector to set styles.
+-   I used a forEach function to set the onClick function for each nav-item.
+-   I used a showPage function I had defined later on outside the function I used it in.
+-   I used the keyword this to reference the object the function was happening to.
+-   I defined a showPage function to use in other parts of the code.
+-   I got the inspiration for this code from harvard cs50 web development user interfaces lecture.
+
+### sendEmail.js
+
+-   This function is the onSubmit function for the contact page form.
+-   It sends an email to my email address, using a serviceID I created on the emailJs site. A template ID from a template I created, and the 3 variables that it takes from the form, from_name, from_email and project_request.
+-   It includes a .then. Once the function is complete, this does 2 different things depending on if the function was succesful or not.
+-   Here is an image of an email I recieved from submitting the contact form.
+![Email recieved from form](/assets/images/emailJsProof.png)
+-   Here is an image of the emialJs template I made.
+![emailJs Template](/assets/images/emailJsTemplate.png)
+
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. JsHint was used to validate the Javascript.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [JsHint](https://jshint.com/)
 
 1.  Index page html validated.
 ![Index Validated](/assets/images/htmlValidatorIndex.png)
 2.  Css validated. There were 5 warnings from external links and extensions.
 ![Css Validated](/assets/images/cssValidated.png)
+3.  Script.js validated. There were 5 warnings from arrow functions only being compatible in ES6, so I added /*jshint esversion: 6 */ at the top of the file, and the warnings disappeared. My mentor told me this.
+![Script.js Validated](/assets/images/scriptJsValidated.png)
+3.  Email.js validated. There are 2 warnings, one saying emailjs is an undefined variable, the other saying sendMail is an unused variable. The code works, so I left it as it is.
+![Email.js Validated](/assets/images/emailJsValidated.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -161,6 +188,8 @@ Once I removed the other, emailJs worked again.
 ![Contact page mobile top](/assets/images/contactMobileTop.png)
 ![Contact page mobile middle](/assets/images/contactMobileMiddle.png)
 ![Contact page mobile bottom](/assets/images/contactMobileBottom.png)
+![Contact page desktop with thanks message](/assets/images/contactDesktopThanks.png)
+![Contact page mobile with thanks message](/assets/images/contactMobileThanks.png)
 
 4. Footer desktop
 
