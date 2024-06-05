@@ -39,6 +39,10 @@ img {
     color: #241d15;
 }
 
+body {
+    width: 100%;
+}
+
 /* ******************************************* Header */
 
 header {
@@ -123,18 +127,20 @@ footer {
 }
 
 .social-links {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
 }
 
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px 0;
+    padding: 12px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    margin: 0 30px;
+    margin: 0;
     color: #79cee2;
     background: #241d15;
     transition: all 0.35s ease-in-out;
@@ -212,8 +218,30 @@ gmp-map {
 
     gmp-map {
         padding-bottom: 20px;
+        width: 90%;
     }
 
+    #footer-left h5 {
+        padding-bottom: 15px;
+    }
+
+    #title {
+        margin-left: 10%;
+        margin-top: 40px;
+    }
+
+    #title a {
+        font-size: 30px;
+    }
+
+    .center-form {
+        max-width: 85%;
+    }
+
+    .social-links {
+        padding-bottom: 10px;
+    }
+    
 }
 
 

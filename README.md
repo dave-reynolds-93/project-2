@@ -191,9 +191,10 @@ Once I removed the other, emailJs worked again.
 ![Contact page desktop with thanks message](/assets/images/contactDesktopThanks.png)
 ![Contact page mobile with thanks message](/assets/images/contactMobileThanks.png)
 
-4. Footer desktop
+4. Footer desktop and mobile
 
 ![Footer desktop](/assets/images/footerDesktop.png)
+![Footer mobile](/assets/images/footerMobile.png)
 
 ## Deployment
 
