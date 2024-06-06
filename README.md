@@ -154,6 +154,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   There are no social media pages for this company, so the social links just take you to the social links respective home page.
+-   There is whitespace to the right and below the site page when viewing on a tablet.
 
 ### Bugs that were fixed
 
@@ -165,6 +166,7 @@ Once I removed the other, emailJs worked again.
 -   Bootstrap navbar button wasn't working. I had forgotten to include the bootstrap Js Cdn at the bottom.
 -   Navbar was collapsing when screen was too large. Changed it from navbar-expand-lg to navbar-expand-md.
 -   The image had a whitespace below it when the thanks message appeared. I fixed this by changing the height of the img from auto to 100%.
+-   The social links clickable area was too wide. This was because I had given them a margin left and right of 30px to space them out. I removed this margin, and gave the containing ul tag a display of flex, and a gap of 10%, setting justify content to center.
 
 ### Screenshots
 

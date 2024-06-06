@@ -38,10 +38,10 @@ img {
     background-color: #79cee2;
     color: #241d15;
 }
-
+/* 
 body {
     width: 100%;
-}
+} */
 
 /* ******************************************* Header */
 
@@ -244,5 +244,104 @@ gmp-map {
     
 }
 
+@media only screen and (min-width: 1500px) {
 
+    #page-one {
+        padding-left: 50px;
+    }
 
+    .home-page {
+        padding: 30px 50px 0 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1750px) {
+
+    #page-one {
+        padding-left: 100px;
+    }
+
+    .home-page {
+        padding: 30px 50px 0 50px;
+        font-size: 1.5rem;
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
+
+    .map-page h5 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 1.7rem;
+    }
+
+    form {
+        padding-top: 30px;
+    }
+
+    button[type="submit"] {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .contact-page h3 {
+        padding-top: 50px;
+    }
+
+    .contact-page h3, .contact-page h5 {
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 2250px) {
+
+    #page-one {
+        padding-left: 100px;
+    }
+
+    .home-page {
+        padding: 40px 60px 0 60px;
+        font-size: 2rem;
+    }
+
+    #footer-left h5 a, #footer-right h5, .nav-link {
+        font-size: 3rem;
+    }
+
+    #title a {
+        font-size: 4rem;
+        padding-left: 80px;
+    }
+
+    .map-page h5 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 3rem;
+    }
+
+    map {
+        width: 400px;
+        height: 600px;
+    }
+
+    form {
+        padding-top: 30px;
+        font-size: 3rem;
+    }
+
+    button[type="submit"] {
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+
+    .contact-page h5, .contact-page h3 {
+        font-size: 3rem;
+    }
+
+}
